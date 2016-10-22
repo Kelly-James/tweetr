@@ -1,0 +1,177 @@
+.new-tweet {
+  background-color: #eee;
+  border: black solid;
+  border-radius: 5px;
+  border-width: 1px;
+  margin: 10em 10em .2em 10em;
+  padding: 1em 1.5em 1em 1.5em;
+}
+
+.new-tweet h2 {
+  border-bottom: solid .075em #244751;
+  margin: 1px;
+}
+
+.new-tweet textarea {
+  background-color: ghostwhite;
+  border-radius: 5px;
+  height: 6em;
+  margin: 0em 0 1.2em 0;
+  width: 100%;
+}
+
+.new-tweet input {
+  border-radius: 5px;
+  position: relative;
+}
+
+.new-tweet .bird-compose {
+  background: #eee;
+  border: none;
+  height: 25px;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  width: 25px;
+  visibility: hidden;
+}
+
+.new-tweet:hover .bird-compose {
+  color: #244751;
+  border-width: 1px;
+  visibility: visible;
+}
+
+.new-tweet .compose-container {
+  display: none;
+}
+
+.new-tweet .counter {
+  color: #244751;
+  float: right;
+}
+
+.new-tweet .counter.max {
+  color: #ff0000;
+}
+
+.tweet-header {
+  margin: 0 10px 15px 10px;
+  position: relative;
+}
+
+.alert-container {
+  position: relative;
+}
+
+.max-error {
+  opacity: 0;
+  transition: opacity 0.5s linear;
+}
+
+.min-error {
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: opacity 0.5s linear;
+}
+
+.max-error.active {
+  opacity: 1;
+}
+
+.min-error.active {
+  opacity: 1;
+}
+
+.new-tweet .post {
+  background-color: #224751;
+  border: 1px solid #eee;
+  color: ghostwhite;
+}
+
+.new-tweet .post:hover {
+  background-color: ghostwhite;
+  color: #224751;
+}
+
+.tweet {
+  background-color: #eee;
+  border-radius: 5px;
+  border: solid black;
+  border-width: 1px;
+  margin: .2em 10em .2em 10em;
+  padding: 1em;
+}
+
+.tweet .user {
+  font-size: 2em;
+  font-weight: 700;
+  vertical-align: top;
+}
+
+.tweet .usertag {
+  color: #949292;
+  float: right;
+  margin: 1em 1em 0 0;
+}
+
+.tweet .avatar {
+  border-radius: 5px;
+  height: 65px;
+  width: 65px;
+}
+
+
+.tweet header {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tweet content {
+  background-color: ghostwhite;
+  border: solid #949292;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-width: 1px 1px 0 1px;
+  display: block;
+  padding: 1em;
+}
+
+.tweet footer {
+  background-color: ghostwhite;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom: solid .075em #949292;
+  border-left: solid .075em #949292;
+  border-right: solid .075em #949292;
+  border-top: solid .075em #eee;
+  padding: .5em;
+}
+
+.tweet footer div {
+  float: right;
+}
+
+.tweet:hover i {
+  visibility: visible;
+}
+
+.tweet i {
+  color: #949292;
+  padding: 0 .5em .5em .5em;
+  visibility: hidden;
+}
+
+.tweet i:hover {
+  color: #ff0000;
+}
+
+.tweet i:active, .tweet i:focus {
+  color: #550000;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+

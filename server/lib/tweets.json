@@ -42,5 +42,20 @@
       "text": "Es ist nichts schrecklicher als eine tätige Unwissenheit."
     },
     "created_at": 1461113796368
+  },
+    {
+    "user": {
+      "name": "Garth",
+      "avatars": {
+        "small":   "/images/garth.jpg",
+        "regular": "https://vanillicon.com/d55cf8e18b47d4baaf60c006a0de39e1.png",
+        "large":   "https://vanillicon.com/d55cf8e18b47d4baaf60c006a0de39e1_200.png"
+      },
+      "handle": "@Garth"
+    },
+    "content": {
+      "text" : "Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
+    },
+    "created_at": "Thursday"
   }
 ]

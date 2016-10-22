@@ -4,6 +4,7 @@
  * Do not modify these two selectors, please
  */
 html {
+  height: 100%;
   box-sizing: border-box;
 }
 *, *:before, *:after {
@@ -15,11 +16,20 @@ html {
  */
 
 body {
+  height: 100%;
   margin: 0;
   color: #244751;
   background-color: #eee;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+main {
+  width: 75%;
+  /*height: 100%;*/
+  margin: auto;
+  margin-top: -5em;
+  background-color: ghostwhite;
+ }

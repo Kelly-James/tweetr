@@ -1,0 +1,58 @@
+#nav-bar {
+  background-color: #00a087;
+  color: #e8fdff;
+  height: 80px;
+  padding-right: 2em;
+  padding-left: 2em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#nav-bar .logo {
+  float: left;
+  height: 80px;
+  width: 80px;
+}
+
+#nav-bar .header {
+  float: left;
+  font-size: 2em;
+  line-height: 80px;
+  margin: 10px;
+}
+
+#nav-bar .button-container {
+  float: right;
+  top: 20px;
+  position: relative;
+  right: 0;
+}
+
+#nav-bar .login {
+  background-color: ghostwhite;
+  border: 1px solid #eee;
+  color: #244751;
+  margin: 2px;
+  height: 26px;
+  width: 64px;
+}
+
+#nav-bar .signup {
+  background-color: ghostwhite;
+  border: 1px solid #eee;
+  color: #244751;
+  margin: 2px;
+  width: 64px;
+}
+
+#nav-bar .login:hover {
+  background-color: #224751;
+  color: ghostwhite;
+}
+
+#nav-bar .signup:hover {
+  background-color: #224751;
+  color: ghostwhite;
+}
