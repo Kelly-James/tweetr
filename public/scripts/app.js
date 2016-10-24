@@ -46,6 +46,7 @@ function loadTweets() {
     method: 'GET',
     dataType: 'json',
     success: function (tweets) {
+      console.log(tweets);
       renderTweets(tweets)
     }
   });
